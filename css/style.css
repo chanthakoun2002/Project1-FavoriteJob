@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Align-text-left {
+    text-align:left ;
+}
+.Align-text-center {
+    text-align:center;
+    
+}
+body{
+    background-color:antiquewhite;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Main_Container{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto 95% auto;
+    background-color:antiquewhite;
+}
+#Main-column {
+    padding: 10px;
+    height: 900px;
+    display : grid;
+    grid-template-rows: auto auto auto;
+    grid-column-start: 2;
+    background-color:chocolate;
+}
+#Top-Row{ /*start of first row*/
+    
+    padding: 20px;
+    grid-row-start: 1;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 70% 20%;
+}
+#Top-Row-Column_Left{
+grid-column-start: 1;
+display:grid;
+grid-template-rows: 20% 80%;
+
+}
+#Top-Row-Column-Left-2ndRow{
+    padding-top: 50px;
+    padding-right: 5ex;
+    grid-row-start: 2;
+ 
+}
+#Top-Row-Column_Right{
+    grid-column-start:2;
+ }
+    /*end of first row*/
+
+#Middle-Row{/*start of middle row*/
+    padding: 10px;
+    grid-row-start: 2;
+    background-color:lightcyan;
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+}
+#Middle-Row-Column-Left{
+    grid-column-start: 1;
+}
+#Middle-Row-Column-Center{
+    padding: 3ex;
+    grid-column-start: 2;
+    border-style:dashed ;
+}
+#Middle-Row-Column-Right{
+    padding: 3ex;
+    grid-column-start: 3;
+} /*end of middle row*/
+
+footer{ /*bottom row*/
+    padding: 10px;
+    grid-row-start: 3;
+    background-color:lightblue;
+}
