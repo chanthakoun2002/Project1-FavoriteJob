@@ -17,7 +17,6 @@ body{
 }
 #Main_Container{
     padding: 5px;
-    
     display: grid;
     grid-template-columns: auto 95% auto;
     background-color:aliceblue;
