@@ -65,6 +65,7 @@ grid-template-rows: 20% 80%;
 }
 #Middle-Row-Column-Left{
     grid-column-start: 1;
+    float:left;
 }
 #Middle-Row-Column-Center{
     padding: 3ex;
