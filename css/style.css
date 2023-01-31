@@ -35,7 +35,7 @@ body{
     grid-row-start: 1;
     background-color: lightblue;
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: auto auto;
 }
 #Top-Row-Column_Left{
 grid-column-start: 1;
@@ -52,6 +52,7 @@ grid-template-rows: 20% 80%;
 }
 #Top-Row-Column_Right{
     grid-column-start:2;
+    float:right
  }
     /*end of first row*/
 
