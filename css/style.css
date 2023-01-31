@@ -11,22 +11,24 @@
     
 }
 body{
-    background-color:antiquewhite;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #Main_Container{
     padding: 5px;
+    
     display: grid;
     grid-template-columns: auto 95% auto;
-    background-color:antiquewhite;
+    background-color:aliceblue;
 }
 #Main-column {
     padding: 10px;
-    height: 900px;
+    height: 1100px;
     display : grid;
     grid-template-rows: auto auto auto;
     grid-column-start: 2;
-    background-color:chocolate;
+    background-color:aliceblue;
 }
 #Top-Row{ /*start of first row*/
     
@@ -34,7 +36,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     grid-row-start: 1;
     background-color: lightblue;
     display: grid;
-    grid-template-columns: 70% 20%;
+    grid-template-columns: 70% auto;
 }
 #Top-Row-Column_Left{
 grid-column-start: 1;
@@ -46,6 +48,7 @@ grid-template-rows: 20% 80%;
     padding-top: 50px;
     padding-right: 5ex;
     grid-row-start: 2;
+    font-size: 22px;
  
 }
 #Top-Row-Column_Right{
@@ -58,7 +61,7 @@ grid-template-rows: 20% 80%;
     grid-row-start: 2;
     background-color:lightcyan;
     display: grid;
-    grid-template-columns: 30% 30% auto;
+    grid-template-columns: auto auto auto;
 }
 #Middle-Row-Column-Left{
     grid-column-start: 1;
@@ -66,11 +69,13 @@ grid-template-rows: 20% 80%;
 #Middle-Row-Column-Center{
     padding: 3ex;
     grid-column-start: 2;
-    border-style:dashed ;
+    border-style:solid ;
+    font-size: 3ex;
 }
 #Middle-Row-Column-Right{
     padding: 3ex;
     grid-column-start: 3;
+    font-size: larger;
 } /*end of middle row*/
 
 footer{ /*bottom row*/
